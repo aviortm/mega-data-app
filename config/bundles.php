@@ -14,6 +14,6 @@ return [
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true, 'test' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
-    MegaDataBundle\MegaDataBundle::class => ['dev' => true],
-    JMS\SerializerBundle\JMSSerializerBundle::class => ['dev' => true]
+    JMS\SerializerBundle\JMSSerializerBundle::class => ['all' => true],
+    MegaDataBundle\MegaDataBundle::class => ['all' => true]
 ];

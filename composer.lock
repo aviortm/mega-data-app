@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f919f8f2c274322b558878652b4dd025",
+    "content-hash": "2dd53cd89030b82415e66399a7510994",
     "packages": [
         {
             "name": "aviortm/mega-data",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aviortm/mega-data-bundle.git",
-                "reference": "457bc9bd59e483a325162fd1daaf7ea65607a87a"
+                "reference": "a6ab50eafe25d9db7cc85be1733a9e38d3362fc8"
             },
             "require": {
                 "boldtrn/jsonb-bundle": "^1.1",
@@ -53,7 +53,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2018-06-11 16:21:33"
+            "time": "2018-06-12T18:40:32+00:00"
         },
         {
             "name": "boldtrn/jsonb-bundle",
@@ -6400,9 +6400,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aviortm/mega-data": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
